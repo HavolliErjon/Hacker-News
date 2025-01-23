@@ -9,6 +9,10 @@ body {
   height: 100vh; /* Occupa tutta l'altezza della finestra */
 }
 
+a{
+  text-decoration: none;
+}
+
 /* News container */
 #news-container {
   width: 80%;
@@ -29,7 +33,8 @@ body {
 }
 
 h1 {
-  font-size: 3em; /* Aumenta la dimensione del font */
+  text-shadow: 5px 5px 5px rgb(107, 122, 167);
+  font-size: 4em; /* Aumenta la dimensione del font */
   text-align: center; /* Centra il testo orizzontalmente */
   margin-bottom: 20px; /* Aggiungi un po' di spazio sotto l'elemento h1 */
 }

@@ -1,37 +1,93 @@
+/* Impostazioni di base per il body */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #cdcdf6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #cdcdf6;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Occupa tutta l'altezza della finestra */
+}
+
+/* News container */
+#news-container {
+  width: 80%;
+  margin: 0 auto;
+  flex-grow: 1; /* Fa in modo che il contenuto prenda spazio disponibile */
+}
+
+#news-list {
+  margin-bottom: 20px;
+}
+
+.news-item {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3em; /* Aumenta la dimensione del font */
+  text-align: center; /* Centra il testo orizzontalmente */
+  margin-bottom: 20px; /* Aggiungi un po' di spazio sotto l'elemento h1 */
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.social-links{
+  color: #e03838;
+}
+
+/* Footer - centrato in basso e orizzontalmente */
+#footer {
+  background-color: #ce3131; /* Colore di sfondo del footer */
+  color: white; /* Colore del testo */
+  text-align: center; /* Centra il contenuto orizzontalmente */
+  padding: 10px 0; /* Distanza tra gli elementi e il bordo superiore/inferiore */
+  width: 100%;
+  margin-top: 10px; /* Spinge il footer in fondo alla pagina */
+}
+
+#footer a {
+  color: white; /* Colore dei link */
+  margin: 0 15px; /* Spaziatura tra le icone */
+  text-decoration: none; /* Rimuove la sottolineatura dai link */
+  font-size: 1.5em; /* Dimensione dell'icona */
+}
+
+#footer a:hover {
+  color: #007BFF; /* Cambia colore al passaggio del mouse */
+}
+
+#footer p {
+  margin-top: 10px; /* Spaziatura tra le icone e il testo */
+  font-size: 0.9em; /* Dimensione del testo */
+}
+
+/* Media query per dispositivi mobili */
+@media (max-width: 600px) {
+  #footer a {
+    font-size: 1.2em; /* Riduce la dimensione delle icone sui dispositivi mobili */
+    margin: 0 10px; /* Riduce la spaziatura tra le icone */
   }
-  
-  #news-container {
-    width: 80%;
-    margin: 0 auto;
+
+  #footer p {
+    font-size: 0.8em; /* Riduce la dimensione del testo del copyright */
   }
-  
-  #news-list {
-    margin-bottom: 20px;
-  }
-  
-  .news-item {
-    background-color: white;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+}

@@ -38,7 +38,7 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 🔗  [![LinkedIn][linkedin-shield]][linkedin-url]
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/erjon-havolli-0147b1336/
+
 
 
 

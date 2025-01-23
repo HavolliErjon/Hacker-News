@@ -3,9 +3,9 @@
 
 ## PANORAMICA DEL PROGETTO:
 
-Questo progetto è un'applicazione web che consente agli utenti di esplorare le ultime notizie tecnologiche provenienti dalla piattaforma Hacker News in tempo reale. Interagendo con un'API, l'app recupera e visualizza gli articoli più recenti, includendo dettagli come il titolo, il link e la data di pubblicazione. Gli utenti possono facilmente accedere ad altri articoli cliccando sul pulsante "Carica altro".
+Questo progetto è un'applicazione web che consente agli utenti di esplorare le ultime notizie tecnologiche provenienti dalla piattaforma Hacker News in tempo reale. Utilizzando le API di Hacker News, l'app recupera e visualizza gli articoli più recenti, includendo dettagli come il titolo, il link e la data di pubblicazione. L'interfaccia è pensata per essere semplice ed efficiente, permettendo agli utenti di caricare altre notizie dinamicamente tramite il pulsante "Load more".
 
-L'obiettivo di questo progetto è creare uno strumento interattivo e informativo per chiunque sia interessato a rimanere aggiornato sulle ultime tendenze e sviluppi tecnologici.
+L'obiettivo del progetto è creare uno strumento interattivo e informativo che permetta agli utenti di rimanere aggiornati sulle ultime tendenze tecnologiche.
 
 ## COME FUNZIONA
 

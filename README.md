@@ -35,5 +35,5 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 
 ## CONTATTI
 
-🔗   [LinkedIn - Erjon Havolli](https://www.linkedin.com/in/erjon-havolli-0147b1336/)
+🔗    [![LinkedIn][linkedin-shield]][linkedin-url](https://www.linkedin.com/in/erjon-havolli-0147b1336/)
 

@@ -21,7 +21,7 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 ## CARATTERISTICHE
 
 - **Dati in tempo reale**: Recupera le ultime notizie tecnologiche dalla piattaforma Hacker News.
-- **Caricamento dinamico**: Il pulsante "Carica altro" consente agli utenti di caricare articoli aggiuntivi senza ricaricare la pagina.
+- **Caricamento dinamico**: Il pulsante "Load more" consente agli utenti di caricare articoli aggiuntivi senza ricaricare la pagina.
 - **Navigazione semplice**: Ogni articolo include un link che reindirizza gli utenti al post originale su Hacker News.
 - **Design responsivo**: L'app è progettata per essere compatibile con dispositivi mobili e si adatta a diverse dimensioni di schermo.
 

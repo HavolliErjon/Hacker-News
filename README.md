@@ -13,7 +13,7 @@ L'applicazione interagisce con l'API di Hacker News per recuperare le ultime not
 
 L'app permette agli utenti di:
 - Visualizzare le ultime notizie, comprensive di titolo, data di pubblicazione e link.
-- Caricare altre notizie dinamicamente cliccando sul pulsante "Carica altro".
+- Caricare altre notizie dinamicamente cliccando sul pulsante "Load more".
 - Accedere all'articolo originale tramite un link che si apre in una nuova scheda.
 
 I dati visualizzati provengono da Hacker News, garantendo che le informazioni siano sempre aggiornate.

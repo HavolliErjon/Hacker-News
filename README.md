@@ -17,16 +17,12 @@
 
 
 ## Descrizione
-
-Questo progetto è un'applicazione che recupera e visualizza le ultime notizie da Hacker News. Quando l'app viene avviata, fa una richiesta alle API per ottenere una lista degli ID delle notizie, quindi visualizza i dettagli (titolo, link e data) delle prime 10 notizie. L'utente può cliccare sul pulsante "Load more" per caricare altre 10 notizie.
-
-Il tutto è realizzato con **JavaScript**, **HTML**, **CSS** e **Webpack** per il bundling e la gestione del progetto.
+Hacker News è un'applicazione sviluppata per democratizzare la diffusione di informazioni in ambito tech attraverso l'utilizzo dell'omonimo servizio <a href="https://github.com/HackerNews/API">(https://github.com/HackerNews/API).</a><br />
+<br />
 
 ### Funzionalità
 
-- Al caricamento, l'app mostra le ultime 10 notizie con il titolo, il link e la data.
-- Cliccando su "Load more", vengono caricate altre 10 notizie.
-- L'app recupera i dati da Hacker News tramite le sue API.
+Questo progetto è un'applicazione che recupera e visualizza le ultime notizie da Hacker News. Quando l'app viene avviata, fa una richiesta alle API per ottenere una lista degli ID delle notizie, quindi visualizza i dettagli (titolo, link e data) delle prime 10 notizie. L'utente può cliccare sul pulsante "Load more" per caricare altre 10 notizie.
 
 ### Flusso dell'app
 
@@ -35,17 +31,8 @@ Il tutto è realizzato con **JavaScript**, **HTML**, **CSS** e **Webpack** per i
 3. Mostra queste notizie sullo schermo con il titolo, il link e la data.
 4. Cliccando su "Load more", l'app carica altre 10 notizie.
 
-## Tecnologie utilizzate
+## Link
 
-- **HTML** per la struttura della pagina.
-- **CSS** per lo stile e il layout.
-- **JavaScript** per la logica dell'applicazione, incluse le chiamate alle API.
-- **Webpack** per il bundling e la gestione dei file JavaScript.
-
-## Come funziona
-
-1. **Recupero degli ID delle notizie**: L'app invia una richiesta all'API di Hacker News per ottenere una lista di ID delle notizie. L'endpoint utilizzato è:
-   ```bash
-   https://hacker-news.firebaseio.com/v0/newstories.json
+<a href="">Link al sito</a>
 
 

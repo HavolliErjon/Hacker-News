@@ -19,7 +19,8 @@ Questo progetto è un'applicazione che recupera e visualizza le ultime notizie d
 3. Mostra queste notizie sullo schermo con il titolo, il link e la data.
 4. Cliccando su "Load more", l'app carica altre 10 notizie.
 
-###Tecnologie Utilizzate
+### Tecnologie Utilizzate
+
 <p>
 <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
 <br>

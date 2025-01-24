@@ -19,13 +19,6 @@ Questo progetto è un'applicazione che recupera e visualizza le ultime notizie d
 3. Mostra queste notizie sullo schermo con il titolo, il link e la data.
 4. Cliccando su "Load more", l'app carica altre 10 notizie.
 
-## Repository Structure
-
-Per inserire la struttura del progetto nel tuo README.md con il formato che desideri, puoi utilizzare i tripli backtick (```) per formattare il blocco di codice. Ecco come inserire la struttura direttamente nel tuo README.md:
-
-markdown
-Copia
-# Hacker News Reader
 
 ## Descrizione del Progetto
 

@@ -19,6 +19,20 @@ Questo progetto è un'applicazione che recupera e visualizza le ultime notizie d
 3. Mostra queste notizie sullo schermo con il titolo, il link e la data.
 4. Cliccando su "Load more", l'app carica altre 10 notizie.
 
+## Repository Structure
+/hacker-news-reader
+│
+├── index.html           # La pagina HTML principale
+├── /css
+│   └── style.css        # Stili dell'applicazione
+├── /js
+│   └── app.js           # Logica JavaScript
+│   └── api.js           # Funzioni per le chiamate API
+├── /img                 # Cartella per le immagini (se necessarie)
+├── README.md            # Questo file
+└── package.json         # Dipendenze e configurazioni di progetto
+
+
 ### Tecnologie Utilizzate
 
 <p>

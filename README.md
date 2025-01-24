@@ -22,15 +22,15 @@ Questo progetto è un'applicazione che recupera e visualizza le ultime notizie d
 ## Repository Structure
 /hacker-news-reader
 │
-├── index.html           # La pagina HTML principale
+├── index.html          
 ├── /css
-│   └── style.css        # Stili dell'applicazione
+│   └── style.css        
 ├── /js
-│   └── app.js           # Logica JavaScript
-│   └── api.js           # Funzioni per le chiamate API
-├── /img                 # Cartella per le immagini (se necessarie)
-├── README.md            # Questo file
-└── package.json         # Dipendenze e configurazioni di progetto
+│   └── app.js          
+│   └── api.js           
+├── /img                
+├── README.md            
+└── package.json         
 
 
 ### Tecnologie Utilizzate

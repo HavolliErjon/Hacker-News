@@ -1,6 +1,6 @@
 #  Hacker News
 
-<img src="./assets/img/Hackernews.png" width="200" />
+<img src="./Assets/Img/Hackernews.png" width="200" />
 
 
 ## Descrizione

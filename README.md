@@ -32,6 +32,8 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 <img src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=CSS3&logoColor=white" alt="CSS"> Stile per un'interfaccia utente pulita e semplice.<br>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript"> Utilizzato per recuperare i dati dall'API, gestire lo stato e aggiornare dinamicamente la pagina.<br>
 - **API**: L'API di Hacker News è utilizzata per recuperare gli articoli più recenti.
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON"><br>
+<img src="https://img.shields.io/badge/Webpack-8DD6F9.svg?style=flat&logo=Webpack&logoColor=black" alt="Webpack"><br>
 
 ## Descrizione
 Hacker News è un'applicazione sviluppata per democratizzare la diffusione di informazioni in ambito tech attraverso l'utilizzo dell'omonimo servizio <a href="https://github.com/HackerNews/API">(https://github.com/HackerNews/API).</a><br />
@@ -86,22 +88,6 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
     └── webpack.config.js
 
 ```
-
-### Tecnologie Utilizzate
-
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
-<br>
-<img src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=CSS3&logoColor=white" alt="CSS">
-<br>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
-<br>
-<img src="https://img.shields.io/badge/Webpack-8DD6F9.svg?style=flat&logo=Webpack&logoColor=black" alt="Webpack">
-<br>
-<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
-<br>
-</p>
-
 
 ## CONTATTI
 

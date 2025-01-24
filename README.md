@@ -41,17 +41,26 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
   `https://hacker-news.firebaseio.com/v0/newstories.json`
 - Per ottenere i dettagli di una notizia (esempio con ID 27971502):  
   `https://hacker-news.firebaseio.com/v0/item/27971502.json`
+## Struttura del Progetto
 
-## Tecnologie Utilizzate
-
-- **JavaScript:** Linguaggio principale per la logica dell'applicazione.
-- **Axios:** Per effettuare le chiamate API.
-- **HTML/CSS:** Per la struttura e lo stile dell'applicazione.
-- **Webpack:** Per la gestione dei moduli JavaScript.
-- **Lodash:** Per la gestione dei dati e l'accesso sicuro agli oggetti.
-
- 
-
+└── /hacker-news-reader
+    ├── README.md
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── webpack.config.js
+    ├── Assets
+    │   ├── css
+    │   │   ├── Style.css
+    │   │   
+    │   ├── Img
+    │   │   ├── Favicon.ico
+    │   │   └── News.jpg
+    │   └── Js
+    │       ├── app.js
+    │      
+    ├── tailwind.config.js
+    └── webpack.config.js
 
 ### Tecnologie Utilizzate
 

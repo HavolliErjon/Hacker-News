@@ -1,23 +1,22 @@
-/* Impostazioni di base per il body */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif; 
   margin: 0;
   padding: 20px;
-  background-color: #cdcdf6;
+  background-color: #f4f4f9; 
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Occupa tutta l'altezza della finestra */
+  height: 100vh; 
 }
 
-a{
+a {
   text-decoration: none;
+  color: inherit; 
 }
 
-/* News container */
 #news-container {
   width: 80%;
   margin: 0 auto;
-  flex-grow: 1; /* Fa in modo che il contenuto prenda spazio disponibile */
+  flex-grow: 1;
 }
 
 #news-list {
@@ -25,74 +24,89 @@ a{
 }
 
 .news-item {
-  background-color: white;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(204, 202, 200);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
 }
 
+.news-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+
 h1 {
-  text-shadow: 5px 5px 5px rgb(107, 122, 167);
-  font-size: 4em; /* Aumenta la dimensione del font */
-  text-align: center; /* Centra il testo orizzontalmente */
-  margin-bottom: 20px; /* Aggiungi un po' di spazio sotto l'elemento h1 */
+  font-family: 'Poppins', sans-serif; 
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1); 
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333; 
 }
 
 button {
   display: block;
   margin: 20px auto;
-  padding: 10px 20px;
-  background-color: #007BFF;
+  padding: 12px 25px;
+  background-color: #97b3d1;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px; 
   cursor: pointer;
+  font-size: 1.1em;
   text-align: center;
+  transition: background-color 0.3s ease; 
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #5884b4;
 }
 
-.social-links{
-  color: #e03838;
-}
-
-/* Footer - centrato in basso e orizzontalmente */
-#footer {
-  background-color: #ce3131; /* Colore di sfondo del footer */
-  color: white; /* Colore del testo */
-  text-align: center; /* Centra il contenuto orizzontalmente */
-  padding: 10px 0; /* Distanza tra gli elementi e il bordo superiore/inferiore */
-  width: 100%;
-  margin-top: 10px; /* Spinge il footer in fondo alla pagina */
+.social-links {
+  color: #333;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 }
 
 #footer a {
-  color: white; /* Colore dei link */
-  margin: 0 15px; /* Spaziatura tra le icone */
-  text-decoration: none; /* Rimuove la sottolineatura dai link */
-  font-size: 1.5em; /* Dimensione dell'icona */
+  color: #e2d8d8;
+  margin: 0 20px;
+  font-size: 2.7em;
+  transition: color 0.3s ease;
 }
 
 #footer a:hover {
-  color: #007BFF; /* Cambia colore al passaggio del mouse */
+  color: #3c5570;
+}
+
+#footer {
+  background-color: #333; 
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
 }
 
 #footer p {
-  margin-top: 10px; /* Spaziatura tra le icone e il testo */
-  font-size: 0.9em; /* Dimensione del testo */
+  margin-top: 10px;
+  font-size: 0.9em;
 }
 
 /* Media query per dispositivi mobili */
 @media (max-width: 600px) {
   #footer a {
-    font-size: 1.2em; /* Riduce la dimensione delle icone sui dispositivi mobili */
-    margin: 0 10px; /* Riduce la spaziatura tra le icone */
+    font-size: 1.3em; 
+    margin: 0 12px;
   }
 
   #footer p {
-    font-size: 0.8em; /* Riduce la dimensione del testo del copyright */
+    font-size: 0.8em;
   }
+
+  h1 {
+    font-size: 2.5em;
+  }
+}
 }

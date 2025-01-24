@@ -20,17 +20,41 @@ Questo progetto è un'applicazione che recupera e visualizza le ultime notizie d
 4. Cliccando su "Load more", l'app carica altre 10 notizie.
 
 ## Repository Structure
-/hacker-news-reader
-│
-├── index.html          
-├── /css
-│   └── style.css        
-├── /js
-│   └── app.js          
-│   └── api.js           
-├── /img                
-├── README.md            
-└── package.json         
+
+Per inserire la struttura del progetto nel tuo README.md con il formato che desideri, puoi utilizzare i tripli backtick (```) per formattare il blocco di codice. Ecco come inserire la struttura direttamente nel tuo README.md:
+
+markdown
+Copia
+# Hacker News Reader
+
+## Descrizione del Progetto
+
+L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'avvio, l'applicazione recupera un elenco delle ultime notizie utilizzando l'API di Hacker News, mostrando il titolo, il link e la data della news. L'applicazione carica inizialmente solo le prime 10 notizie, e tramite un pulsante "Load more", l'utente può caricare altre 10 notizie alla volta.
+
+### Funzionalità:
+- **Visualizzazione delle ultime 10 notizie:** All'avvio, vengono visualizzati i dettagli (titolo, link e data) delle prime 10 notizie.
+- **Pulsante "Load more":** Permette di caricare altre 10 notizie alla volta.
+- **Recupero delle notizie tramite API:** L'applicazione fa due chiamate API per ogni notizia: una per ottenere l'ID della notizia e una seconda per ottenere i dettagli.
+  
+### Esempio di API:
+- Per ottenere gli ID delle ultime notizie:  
+  `https://hacker-news.firebaseio.com/v0/newstories.json`
+- Per ottenere i dettagli di una notizia (esempio con ID 27971502):  
+  `https://hacker-news.firebaseio.com/v0/item/27971502.json`
+
+## Tecnologie Utilizzate
+
+- **JavaScript:** Linguaggio principale per la logica dell'applicazione.
+- **Axios:** Per effettuare le chiamate API.
+- **HTML/CSS:** Per la struttura e lo stile dell'applicazione.
+- **Webpack:** Per la gestione dei moduli JavaScript.
+- **Lodash:** Per la gestione dei dati e l'accesso sicuro agli oggetti.
+
+## Struttura del Progetto
+
+La struttura del progetto è la seguente:
+
+/hacker-news-reader │ ├── index.html # La pagina HTML principale ├── /css │ └── style.css # Stili dell'applicazione ├── /js │ └── app.js # Logica JavaScript per l'applicazione │ └── api.js # Funzioni per le chiamate API (comunicazione con Hacker News) ├── /img # Cartella per le immagini (se necessarie) ├── README.md # Questo file che descrive il progetto └── package.json # Dipendenze e configurazioni di progetto       
 
 
 ### Tecnologie Utilizzate

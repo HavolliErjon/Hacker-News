@@ -43,6 +43,7 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
   `https://hacker-news.firebaseio.com/v0/item/27971502.json`
 ## Struttura del Progetto
 
+```sh
 └── /hacker-news-reader
     ├── README.md
     ├── index.html
@@ -61,6 +62,10 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
     │      
     ├── tailwind.config.js
     └── webpack.config.js
+
+```
+
+---
 
 ### Tecnologie Utilizzate
 

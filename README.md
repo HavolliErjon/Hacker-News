@@ -1,6 +1,7 @@
 #  Hacker News
 
-![Image](https://github.com/user-attachments/assets/ee125a18-cc5b-4d5b-b276-548629185a1f)
+<img src="https://github.com/user-attachments/assets/ee125a18-cc5b-4d5b-b276-548629185a1f" alt="Image" width="500"/>
+
 
 
 ## Descrizione

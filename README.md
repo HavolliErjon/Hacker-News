@@ -1,7 +1,6 @@
 #  Hacker News
 
-
-<img src="./Assets/Img/Hackernews.png" width="200" />
+![Image](https://github.com/user-attachments/assets/ee125a18-cc5b-4d5b-b276-548629185a1f)
 
 
 ## Descrizione

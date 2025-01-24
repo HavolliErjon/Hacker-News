@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+#  Hacker News
 
-<img src="Assets/Img/hackernews.png" width="600" height="300">
+<img src="https://github.com/user-attachments/assets/ee125a18-cc5b-4d5b-b276-548629185a1f" alt="Image" width="500"/>
 
 ## PANORAMICA DEL PROGETTO:
 
@@ -32,20 +32,6 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 - **CSS**: Stile per un'interfaccia utente pulita e semplice.
 - **JavaScript**: Utilizzato per recuperare i dati dall'API, gestire lo stato e aggiornare dinamicamente la pagina.
 - **API**: L'API di Hacker News è utilizzata per recuperare gli articoli più recenti.
-
-
-
-
-
-
-
-
-=======
-#  Hacker News
-
-<img src="https://github.com/user-attachments/assets/ee125a18-cc5b-4d5b-b276-548629185a1f" alt="Image" width="500"/>
-
-
 
 ## Descrizione
 Hacker News è un'applicazione sviluppata per democratizzare la diffusione di informazioni in ambito tech attraverso l'utilizzo dell'omonimo servizio <a href="https://github.com/HackerNews/API">(https://github.com/HackerNews/API).</a><br />

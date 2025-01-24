@@ -15,6 +15,13 @@ a {
   color: inherit; 
 }
 
+.news-item a {
+  word-wrap: break-word;  
+  overflow-wrap: break-word;
+  display: block; 
+  word-break: break-all; 
+  white-space: normal; 
+}
 
 #news-container {
   width: 80%;
@@ -107,6 +114,7 @@ button:hover {
 }
 
 
+
 @media (max-width: 600px) {
   #footer a {
     font-size: 1.3em; 
@@ -120,4 +128,25 @@ button:hover {
   h1 {
     font-size: 2.5em; 
   }
+
+  .news-item a {
+      font-size: 1em; 
+      word-wrap: break-word;  
+      overflow-wrap: break-word;
+      width: 100%; 
+  }
+  
+ .news-item p {
+  font-size: 0.em;  
 }
+}
+
+
+.news-item a {
+  word-wrap: break-word;  /* Consente la rottura del testo per evitare che il link esca dallo schermo */
+  overflow-wrap: break-word; /* Aggiunge un comportamento di rottura della parola anche se il link è lungo */
+  display: block; /* Rende il link un blocco che si adatta alla larghezza del suo contenitore */
+  word-break: break-all; /* Questo farà sì che il testo lungo venga spezzato */
+  white-space: normal; /* Consente la rottura del testo */
+}
+

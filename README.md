@@ -1,1 +1,1 @@
-![Descrizione della tua immagine](Assets/Img/Hackernews.png)
+!(Assets/Img/Hackernews.png)

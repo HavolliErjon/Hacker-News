@@ -33,12 +33,7 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 - **JavaScript**: Utilizzato per recuperare i dati dall'API, gestire lo stato e aggiornare dinamicamente la pagina.
 - **API**: L'API di Hacker News è utilizzata per recuperare gli articoli più recenti.
 
-## CONTATTI
 
-🔗[![LinkedIn][linkedin-shield]][linkedin-url]
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/erjon-havolli-0147b1336/
 
 
 
@@ -121,8 +116,14 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
 <br>
 </p>
 
+
+## CONTATTI
+
+🔗[![LinkedIn][linkedin-shield]][linkedin-url]
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/erjon-havolli-0147b1336/
+
 ## Link
 
 Link al sito: <a href="">https://thehackernewss.netlify.app/</a>
-
-

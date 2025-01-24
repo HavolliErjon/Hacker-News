@@ -28,7 +28,7 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 
 ## TECNOLOGIE UTILIZZATE
 
-- **HTML**: Struttura dell'applicazione.
+<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">: Struttura dell'applicazione.
 - **CSS**: Stile per un'interfaccia utente pulita e semplice.
 - **JavaScript**: Utilizzato per recuperare i dati dall'API, gestire lo stato e aggiornare dinamicamente la pagina.
 - **API**: L'API di Hacker News è utilizzata per recuperare gli articoli più recenti.

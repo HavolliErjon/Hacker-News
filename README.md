@@ -52,9 +52,7 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
 
 ## Struttura del Progetto
 
-La struttura del progetto è la seguente:
-
-/hacker-news-reader │ ├── index.html # La pagina HTML principale ├── /css │ └── style.css # Stili dell'applicazione ├── /js │ └── app.js # Logica JavaScript per l'applicazione │ └── api.js # Funzioni per le chiamate API (comunicazione con Hacker News) ├── /img # Cartella per le immagini (se necessarie) ├── README.md # Questo file che descrive il progetto └── package.json # Dipendenze e configurazioni di progetto       
+/hacker-news-reader │ ├── index.html # La pagina HTML principale ├── /css │ └── style.css # Stili dell'applicazione ├── /js │ └── app.js # Logica JavaScript per l'applicazione │ └── api.js # Funzioni per le chiamate API (comunicazione con Hacker News) ├── /img # Cartella per le immagini (se necessarie) ├── README.md # Questo file che descrive il progetto └── package.json # Dipendenze e configurazioni di progetto     
 
 
 ### Tecnologie Utilizzate

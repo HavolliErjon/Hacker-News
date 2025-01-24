@@ -31,7 +31,8 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5"> Struttura dell'applicazione. <br>
 <img src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=CSS3&logoColor=white" alt="CSS"> Stile per un'interfaccia utente pulita e semplice.<br>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript"> Utilizzato per recuperare i dati dall'API, gestire lo stato e aggiornare dinamicamente la pagina.<br>
-- **API**: L'API di Hacker News è utilizzata per recuperare gli articoli più recenti.
+<img src="https://img.shields.io/badge/API-000000.svg?style=flat&logo=API&logoColor=white" alt="API">
+L'API di Hacker News è utilizzata per recuperare gli articoli più recenti.<br>
 <img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">Formato di scambio dati utilizzato per strutturare le informazioni tra il server e il client.<br>
 <img src="https://img.shields.io/badge/Webpack-8DD6F9.svg?style=flat&logo=Webpack&logoColor=black" alt="Webpack"> Strumento di bundling che ottimizza il flusso di lavoro per la gestione dei moduli e la creazione del pacchetto dell'applicazione.<br>
 

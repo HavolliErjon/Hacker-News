@@ -44,7 +44,7 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
 ## Struttura del Progetto
 
 ```
-└── /hacker-news-reader
+└── /Hacker News
     ├── README.md
     ├── index.html
     ├── package-lock.json

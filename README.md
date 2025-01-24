@@ -123,7 +123,6 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
 
 ## Link
 
-<a href="">Link al sito</a>
+<a href="">https://thehackernewss.netlify.app/</a>
 
 
->>>>>>> c04d5e04943670c41d6ba8d6a4d0b1dbc24b8fd8

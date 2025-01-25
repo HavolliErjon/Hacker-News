@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+#  Hacker News
 
-<img src="Assets/Img/hackernews.png" width="600" height="300">
+<img src="https://github.com/user-attachments/assets/ee125a18-cc5b-4d5b-b276-548629185a1f" alt="Image" width="500"/>
 
 ## PANORAMICA DEL PROGETTO:
 
@@ -28,37 +28,12 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 
 ## TECNOLOGIE UTILIZZATE
 
-- **HTML**: Struttura dell'applicazione.
-- **CSS**: Stile per un'interfaccia utente pulita e semplice.
-- **JavaScript**: Utilizzato per recuperare i dati dall'API, gestire lo stato e aggiornare dinamicamente la pagina.
-- **API**: L'API di Hacker News è utilizzata per recuperare gli articoli più recenti.
-
-## CONTATTI
-
-🔗[![LinkedIn][linkedin-shield]][linkedin-url]
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/erjon-havolli-0147b1336/
-
-
-
-
-
-
-=======
-#  Hacker News
-
-<img src="https://github.com/user-attachments/assets/ee125a18-cc5b-4d5b-b276-548629185a1f" alt="Image" width="500"/>
-
-
-
-## Descrizione
-Hacker News è un'applicazione sviluppata per democratizzare la diffusione di informazioni in ambito tech attraverso l'utilizzo dell'omonimo servizio <a href="https://github.com/HackerNews/API">(https://github.com/HackerNews/API).</a><br />
-<br />
-
-### Funzionalità
-
-Questo progetto è un'applicazione che recupera e visualizza le ultime notizie da Hacker News. Quando l'app viene avviata, fa una richiesta alle API per ottenere una lista degli ID delle notizie, quindi visualizza i dettagli (titolo, link e data) delle prime 10 notizie. L'utente può cliccare sul pulsante "Load more" per caricare altre 10 notizie.
+<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5"> Struttura dell'applicazione. <br><br>
+<img src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=CSS3&logoColor=white" alt="CSS"> Stile per un'interfaccia utente pulita e semplice.<br><br>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript"> Utilizzato per recuperare i dati dall'API, gestire lo stato e aggiornare dinamicamente la pagina.<br><br>
+<img src="https://img.shields.io/badge/API-000000.svg?style=flat&logo=API&logoColor=white" alt="API"> L'API di Hacker News è utilizzata per recuperare gli articoli più recenti.<br><br>
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON"> Formato di scambio dati utilizzato per strutturare le informazioni tra il server e il client.<br><br>
+<img src="https://img.shields.io/badge/Webpack-8DD6F9.svg?style=flat&logo=Webpack&logoColor=black" alt="Webpack"> Strumento di bundling che ottimizza il flusso di lavoro per la gestione dei moduli e la creazione del pacchetto dell'applicazione.<br><br>
 
 ### Flusso dell'app
 
@@ -77,11 +52,14 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
 - **Pulsante "Load more":** Permette di caricare altre 10 notizie alla volta.
 - **Recupero delle notizie tramite API:** L'applicazione fa due chiamate API per ogni notizia: una per ottenere l'ID della notizia e una seconda per ottenere i dettagli.
   
-### Esempio di API:
-- Per ottenere gli ID delle ultime notizie:  
-  `https://hacker-news.firebaseio.com/v0/newstories.json`
-- Per ottenere i dettagli di una notizia (esempio con ID 27971502):  
-  `https://hacker-news.firebaseio.com/v0/item/27971502.json`
+### Esempio di API
+- **Recuperare gli ID delle ultime notizie:**
+Utilizza questo endpoint per ottenere una lista di ID delle ultime notizie pubblicate su Hacker News:
+https://hacker-news.firebaseio.com/v0/newstories.json
+
+- **Recuperare i dettagli di una notizia:**
+Dopo aver ottenuto un ID di una notizia, puoi usarlo per recuperare i dettagli della notizia, come titolo, link, data di pubblicazione, ecc. Ad esempio, per ottenere i dettagli della notizia con ID 27971502:
+https://hacker-news.firebaseio.com/v0/item/27971502.json
 ## Struttura del Progetto
 
 ```
@@ -106,24 +84,13 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
 
 ```
 
-### Tecnologie Utilizzate
+## CONTATTI
 
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
-<br>
-<img src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=CSS3&logoColor=white" alt="CSS">
-<br>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
-<br>
-<img src="https://img.shields.io/badge/Webpack-8DD6F9.svg?style=flat&logo=Webpack&logoColor=black" alt="Webpack">
-<br>
-<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
-<br>
-</p>
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/erjon-havolli-0147b1336/
 
 ## Link
 
-<a href="">Link al sito</a>
-
-
->>>>>>> c04d5e04943670c41d6ba8d6a4d0b1dbc24b8fd8
+Link al sito: <a href="">https://thehackernewss.netlify.app/</a>

@@ -35,14 +35,6 @@ I dati visualizzati provengono da Hacker News, garantendo che le informazioni si
 <img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON"> Formato di scambio dati utilizzato per strutturare le informazioni tra il server e il client.<br><br>
 <img src="https://img.shields.io/badge/Webpack-8DD6F9.svg?style=flat&logo=Webpack&logoColor=black" alt="Webpack"> Strumento di bundling che ottimizza il flusso di lavoro per la gestione dei moduli e la creazione del pacchetto dell'applicazione.<br><br>
 
-## Descrizione
-Hacker News è un'applicazione sviluppata per democratizzare la diffusione di informazioni in ambito tech attraverso l'utilizzo dell'omonimo servizio <a href="https://github.com/HackerNews/API">(https://github.com/HackerNews/API).</a><br />
-<br />
-
-### Funzionalità
-
-Questo progetto è un'applicazione che recupera e visualizza le ultime notizie da Hacker News. Quando l'app viene avviata, fa una richiesta alle API per ottenere una lista degli ID delle notizie, quindi visualizza i dettagli (titolo, link e data) delle prime 10 notizie. L'utente può cliccare sul pulsante "Load more" per caricare altre 10 notizie.
-
 ### Flusso dell'app
 
 1. All'avvio, l'app fa una richiesta per ottenere una lista di ID delle notizie.

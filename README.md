@@ -53,11 +53,11 @@ L'applicazione consente di visualizzare le ultime notizie da Hacker News. All'av
 - **Recupero delle notizie tramite API:** L'applicazione fa due chiamate API per ogni notizia: una per ottenere l'ID della notizia e una seconda per ottenere i dettagli.
   
 ### Esempio di API
-Recuperare gli ID delle ultime notizie
+- **Recuperare gli ID delle ultime notizie:**
 Utilizza questo endpoint per ottenere una lista di ID delle ultime notizie pubblicate su Hacker News:
 https://hacker-news.firebaseio.com/v0/newstories.json
 
-Recuperare i dettagli di una notizia
+- **Recuperare i dettagli di una notizia:**
 Dopo aver ottenuto un ID di una notizia, puoi usarlo per recuperare i dettagli della notizia, come titolo, link, data di pubblicazione, ecc. Ad esempio, per ottenere i dettagli della notizia con ID 27971502:
 https://hacker-news.firebaseio.com/v0/item/27971502.json
 ## Struttura del Progetto

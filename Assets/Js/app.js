@@ -1,6 +1,6 @@
-import axios from 'axios';  // Aggiungi questa riga per importare Axios
-import _ from 'lodash';  // Aggiungi questa riga per usare Lodash
-import '../Css/Style.css';  // Carica il CSS con Webpack
+import axios from 'axios';  
+import _ from 'lodash';  
+import '../Css/Style.css';  
 
 document.addEventListener('DOMContentLoaded', () => {
   const newsContainer = document.getElementById('news-list');
@@ -10,13 +10,13 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentNewsIndex = 0;
   let newsChunks = [];
 
-  // Funzione per recuperare le ultime notizie
+
   async function fetchLatestNews() {
     try {
       const response = await axios.get('https://hacker-news.firebaseio.com/v0/newstories.json?print=pretty');
       newsIds = response.data;
 
-      // Suddividi gli ID delle notizie in blocchi da 10
+      
       newsChunks = _.chunk(newsIds, 10);
       
       displayNews(newsChunks[currentNewsIndex]);
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Funzione per recuperare i dettagli di una singola notizia
+  
   async function fetchNewsDetails(newsId) {
     try {
       const response = await axios.get(`https://hacker-news.firebaseio.com/v0/item/${newsId}.json?print=pretty`);
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Funzione per visualizzare le notizie
+  
   async function displayNews(chunk) {
     for (let i = 0; i < chunk.length; i++) {
       const newsData = await fetchNewsDetails(chunk[i]);
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Funzione per caricare il blocco successivo di notizie
+ 
   function loadMoreNews() {
     if (newsChunks.length > currentNewsIndex) {
       displayNews(newsChunks[currentNewsIndex]);

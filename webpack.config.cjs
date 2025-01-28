@@ -2,8 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',  // Imposta il mode su 'development' per una build in sviluppo
-  entry: './Assets/Js/app.js',  // punto di ingresso
+  mode: 'development', 
+  entry: './Assets/Js/app.js',  
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -23,16 +23,16 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html', // il tuo template HTML
+      template: './index.html', 
       filename: 'index.html',
     }),
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist'),  // directory di destinazione dei file statici
+      directory: path.join(__dirname, 'dist'),  
     },
-    compress: true,  // abilita la compressione per una risposta più veloce
-    port: 9002,  // Cambia la porta a 9001
-    open: true,   // apre automaticamente il browser alla partenza del server
+    compress: true,  
+    port: 9002,  
+    open: true,   
   },
 };

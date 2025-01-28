@@ -1,11 +1,11 @@
-/* Stile di base */
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
-  overflow-x: hidden; /* Impedisce lo scrolling orizzontale */
+  overflow-x: hidden; 
 }
 
 h1, h3 {
@@ -26,36 +26,36 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Contenitore principale (news-container) */
+
 #news-container {
-  max-width: 100%; /* Assicura che non esca dalla larghezza */
-  width: 100%; /* Occupa il 100% della larghezza disponibile */
+  max-width: 100%; 
+  width: 100%; 
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box; /* Per evitare che il padding spinga il contenuto fuori dal contenitore */
-  overflow: hidden; /* Evita che il contenuto fuoriesca */
+  box-sizing: border-box; 
+  overflow: hidden; 
 }
 
-/* Titolo principale */
+
 #news-container h1 {
   text-align: center;
   font-size: 2.5rem;
   color: #333;
-  word-wrap: break-word; /* Impedisce che il titolo esca fuori se è troppo lungo */
+  word-wrap: break-word; 
 }
 
-/* Lista delle notizie */
+
 #news-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
-  box-sizing: border-box; /* Includi padding e bordi nel calcolo della larghezza */
+  box-sizing: border-box; 
 }
 
-/* Elemento della singola notizia */
+
 .news-item {
   background-color: #fafafa;
   padding: 15px;
@@ -63,7 +63,7 @@ a:hover {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  overflow: hidden; /* Evita che il contenuto esca dalla card */
+  overflow: hidden; 
 }
 
 .news-item h3 {
@@ -84,7 +84,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Bottone "Load More" */
+
 #load-more {
   background-color: #0073e6;
   color: white;
@@ -96,14 +96,14 @@ a:hover {
   display: block;
   margin: 20px auto;
   transition: background-color 0.3s;
-  box-sizing: border-box; /* Includi il padding nel calcolo della larghezza */
+  box-sizing: border-box; 
 }
 
 #load-more:hover {
   background-color: #005bb5;
 }
 
-/* Footer */
+
 #footer {
   display: flex;
   flex-direction: column;
@@ -113,7 +113,7 @@ a:hover {
   background-color: #222;
   color: #fff;
   width: 100%;
-  box-sizing: border-box; /* Includi padding nel calcolo della larghezza */
+  box-sizing: border-box; 
 }
 
 #footer p {
@@ -122,7 +122,7 @@ a:hover {
   margin-top: 10px;
 }
 
-/* Social links */
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -138,9 +138,9 @@ a:hover {
   color: #0073e6;
 }
 
-/* Media Queries per la responsività */
 
-/* Schermi da 1024px (tablet orizzontale e schermi più piccoli) */
+
+
 @media (max-width: 1024px) {
   #news-container {
     margin: 10px;
@@ -161,7 +161,7 @@ a:hover {
   }
 }
 
-/* Schermi da 768px (tablet verticale) */
+
 @media (max-width: 768px) {
   #news-container {
     padding: 15px;
@@ -194,7 +194,7 @@ a:hover {
   }
 }
 
-/* Schermi da 480px (smartphone) */
+
 @media (max-width: 480px) {
   #news-container {
     padding: 10px;
@@ -216,12 +216,12 @@ a:hover {
     font-size: 2rem;
   }
 
-  /* Modifica il font-size del titolo */
+  
   #news-container h1 {
     font-size: 2rem;
   }
 
-  /* Ridurre la dimensione dei testi */
+  
   .news-item h3 {
     font-size: 1rem;
   }

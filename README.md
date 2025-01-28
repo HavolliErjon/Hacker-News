@@ -1,6 +1,6 @@
 #  Hacker News
 
-<img src="https://github.com/user-attachments/assets/70cdd10e-f915-4143-a5f5-5e94b938886b" alt="Image" width="700" height="1200"/>
+<img src="![Image](https://github.com/user-attachments/assets/2ef6f59f-c2c4-4323-add6-1044a9edf8b8)" alt="Image" width="700" height="1200"/>
 
 ## PANORAMICA DEL PROGETTO:
 

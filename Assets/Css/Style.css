@@ -1,9 +1,11 @@
+/* Stile di base */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  overflow-x: hidden; /* Impedisce lo scrolling orizzontale */
 }
 
 h1, h3 {
@@ -24,35 +26,44 @@ a:hover {
   text-decoration: underline;
 }
 
-
+/* Contenitore principale (news-container) */
 #news-container {
-  max-width: 1200px;
+  max-width: 100%; /* Assicura che non esca dalla larghezza */
+  width: 100%; /* Occupa il 100% della larghezza disponibile */
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Per evitare che il padding spinga il contenuto fuori dal contenitore */
+  overflow: hidden; /* Evita che il contenuto fuoriesca */
 }
 
+/* Titolo principale */
 #news-container h1 {
   text-align: center;
   font-size: 2.5rem;
   color: #333;
+  word-wrap: break-word; /* Impedisce che il titolo esca fuori se è troppo lungo */
 }
 
-
+/* Lista delle notizie */
 #news-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
+  box-sizing: border-box; /* Includi padding e bordi nel calcolo della larghezza */
 }
 
+/* Elemento della singola notizia */
 .news-item {
   background-color: #fafafa;
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  overflow: hidden; /* Evita che il contenuto esca dalla card */
 }
 
 .news-item h3 {
@@ -73,7 +84,7 @@ a:hover {
   text-decoration: underline;
 }
 
-
+/* Bottone "Load More" */
 #load-more {
   background-color: #0073e6;
   color: white;
@@ -85,13 +96,14 @@ a:hover {
   display: block;
   margin: 20px auto;
   transition: background-color 0.3s;
+  box-sizing: border-box; /* Includi il padding nel calcolo della larghezza */
 }
 
 #load-more:hover {
   background-color: #005bb5;
 }
 
-
+/* Footer */
 #footer {
   display: flex;
   flex-direction: column;
@@ -100,6 +112,8 @@ a:hover {
   padding: 20px;
   background-color: #222;
   color: #fff;
+  width: 100%;
+  box-sizing: border-box; /* Includi padding nel calcolo della larghezza */
 }
 
 #footer p {
@@ -108,6 +122,7 @@ a:hover {
   margin-top: 10px;
 }
 
+/* Social links */
 .social-links {
   display: flex;
   justify-content: center;
@@ -123,7 +138,9 @@ a:hover {
   color: #0073e6;
 }
 
-/* Media Queries for Responsiveness */
+/* Media Queries per la responsività */
+
+/* Schermi da 1024px (tablet orizzontale e schermi più piccoli) */
 @media (max-width: 1024px) {
   #news-container {
     margin: 10px;
@@ -133,15 +150,34 @@ a:hover {
   #news-list {
     grid-template-columns: 1fr 1fr;
   }
+
+  #load-more {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+
+  #footer p {
+    font-size: 0.8rem;
+  }
 }
 
+/* Schermi da 768px (tablet verticale) */
 @media (max-width: 768px) {
   #news-container {
-    padding: 10px;
+    padding: 15px;
   }
 
   #news-list {
     grid-template-columns: 1fr;
+  }
+
+  .news-item {
+    padding: 12px;
+  }
+
+  #load-more {
+    font-size: 1rem;
+    padding: 10px 20px;
   }
 
   .social-links {
@@ -150,10 +186,15 @@ a:hover {
   }
 
   .social-links a {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+
+  #footer {
+    padding: 10px;
   }
 }
 
+/* Schermi da 480px (smartphone) */
 @media (max-width: 480px) {
   #news-container {
     padding: 10px;
@@ -169,5 +210,23 @@ a:hover {
 
   #footer {
     padding: 15px;
+  }
+
+  .social-links a {
+    font-size: 2rem;
+  }
+
+  /* Modifica il font-size del titolo */
+  #news-container h1 {
+    font-size: 2rem;
+  }
+
+  /* Ridurre la dimensione dei testi */
+  .news-item h3 {
+    font-size: 1rem;
+  }
+
+  .news-item p {
+    font-size: 0.8rem;
   }
 }
